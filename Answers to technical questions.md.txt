@@ -1,0 +1,55 @@
+### 1. How long did you spend on the coding test? What would you add to your solution if you had more time?  
+
+I spent around **4–5 hours** on the coding test.  
+If I had more time, I would have focused on:  
+- Adding **unit and feature tests** to ensure reliability.  
+- Improving **error handling** and adding meaningful error messages.  
+- Enhancing **security measures** such as input validation and sanitization.  
+- Writing more **modular and reusable code** to improve maintainability.  
+- Adding **documentation** and inline comments for clarity.  
+- Optimizing database queries to ensure better performance.  
+
+---
+
+### 2. How would you track down a performance issue in production? Have you ever had to do this?  
+
+To track down a performance issue in production, I would:  
+1. **Identify symptoms** – monitor logs, server metrics, and user reports.  
+2. **Check application logs** for slow queries, exceptions, or memory leaks.  
+3. Use **profiling tools** (like Laravel Telescope, Xdebug, or New Relic) to identify bottlenecks.  
+4. Inspect **database queries** – check for missing indexes, N+1 queries, or unoptimized joins.  
+5. Monitor **server performance** (CPU, memory, I/O usage) and optimize accordingly.  
+6. Use **caching mechanisms** (query caching, Redis, or application-level caching).  
+7. Gradually deploy fixes and validate improvements.  
+
+Yes, I have had to do this. In one instance, a production app faced **slow page load times due to unoptimized queries**. I resolved it by analyzing queries with `EXPLAIN`, adding proper indexes, and using eager loading to eliminate N+1 problems.
+
+---
+
+### 3. Please describe yourself using JSON.  
+
+```json
+{
+  "name": "StithaPragyan Tripathy",
+  "role": "Software Developer",
+  "experience": "5 years",
+  "skills": {
+    "backend": ["PHP", "Laravel", "CodeIgniter"],
+    "frontend": ["JavaScript", "jQuery", "Bootstrap", "HTML5", "CSS3"],
+    "databases": ["MySQL", "PostgreSQL"],
+    "tools": ["GitHub", "REST APIs", "Linux"]
+  },
+  "education": {
+    "degree": "MCA",
+    "university": "Silicon University",
+    "year": 2020
+  },
+  "strengths": [
+    "Problem solving",
+    "Clean coding practices",
+    "Adaptability",
+    "Team collaboration"
+  ],
+  "interests": ["Web development", "System optimization", "Learning new technologies"],
+  "availability": "Immediate"
+}
